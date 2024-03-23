@@ -38,7 +38,7 @@ services:
 ```
 to connect to the postgres database, on Nextcloud setup select PostgreSQL and fill in with the following:
 
-- username: postgres
-- password: yourpassword
-- database: postgres
-- server: name-of-your-postgres-container
+- **Database user**: postgres
+- **Database password**: yourpassword
+- **Database name**: postgres
+- **Database host**: name-of-your-postgres-container
